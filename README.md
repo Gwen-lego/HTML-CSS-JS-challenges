@@ -20,5 +20,5 @@ Thanks! Have a lovely day!
 
 ![grow brain icon](https://user-images.githubusercontent.com/91636757/235404578-6f37d88d-405d-43a8-853f-c31914c039fe.png)
 
-Challenge 1 : How to center an element vertically and horizontally on your browser.<br />
+<b>Challenge 1 :</b> How to center an element vertically and horizontally on your browser.<br />
 Source: https://www.frontendmentor.io/challenges
