@@ -5,7 +5,8 @@ Hi everyone,
 
 ![arrow icon](https://user-images.githubusercontent.com/91636757/235399782-67852b59-1dcd-47f3-9871-ec0eaa343069.png)
 <br />
-In this file you will find some challenges I have done to practice Html and Css. I use it as reminders everytime I get stuck. 
+In this file you will find some challenges I have done to practice Html and Css.<br />
+I use it as reminders everytime I get stuck.<br />
 Below: I have described the most important lessons that every challenge provides to me with the link if you want to have a go at it.<br />
 Hope it helps someone too.
 
