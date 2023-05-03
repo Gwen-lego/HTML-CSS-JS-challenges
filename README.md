@@ -22,5 +22,3 @@ Thanks! Have a lovely day!
 
 <a href="Challenge1-qrcomponent/index.html"><b>Challenge 1</b></a>: How to center an element vertically and horizontally on your browser.<br />
 Source: https://www.frontendmentor.io/challenges
-
-<a href="https://gwen-lego.github.io/html-Css-challenges/index.html"> click </a>
