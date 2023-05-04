@@ -1,5 +1,5 @@
 {
-    "recommendations": [
-        "ritwickdey.liveserver"
-    ]
+    "workbench.colorTheme": "Cobalt2",
+
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "Firefox Developer Edition"
 }
