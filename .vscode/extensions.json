@@ -1,5 +1,5 @@
 {
     "workbench.colorTheme": "Cobalt2",
-
+    "liveServer.settings.ChromeDebuggingAttachment": false,
     "liveServer.settings.AdvanceCustomBrowserCmdLine": "Firefox Developer Edition"
 }
