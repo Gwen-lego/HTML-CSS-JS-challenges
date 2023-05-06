@@ -22,3 +22,6 @@ Thanks! Have a lovely day!
 
 <a href="Challenge1-qrcomponent/index.html"><b>Challenge 1</b></a>: How to center an element vertically and horizontally on your browser.<br />
 Source: https://www.frontendmentor.io/challenges
+
+<a href="Challenge 2 - Summary component/index.html><b> Challenge 2</b></a>: Match a design and create a responsive mobile design.<br />
+Source: https://www.frontendmentor.io/challenges
