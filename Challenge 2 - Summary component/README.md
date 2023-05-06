@@ -46,6 +46,8 @@ Users should be able to:
 ### What I learned
 
 This challenge encouraged me to practise lot of CSS features.
+how to create corner borders only: I have to work on the radius and color to make it perfect.
+https://jsfiddle.net/4f3Lc7se/3/
 
 ### Continued development
 
