@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Gwen-lego/html-Css-challenges/blob/75aa84428880933200ff376e03872860e7c75875/Challenge%202%20-%20Summary%20component/index.html)
+- Live Site URL: [Add live site URL here](https://gwen-lego.github.io/html-Css-challenges/Challenge%202%20-%20Summary%20component/index.html)
 
 ## My process
 
@@ -45,19 +45,15 @@ Users should be able to:
 
 ### What I learned
 
-This challenge encourage you to practise lot of CSS features.
-
+This challenge encouraged me to practise lot of CSS features.
 
 ### Continued development
 
-At this stage I want to practice and become confident with HTML and Css
+At this stage I want to practice and become confident with HTML and Css.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+I have added a color picker app to my toolkit, really usefull when you can't figure out the exact color.
 
 ## Acknowledgments
 
