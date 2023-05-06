@@ -152,8 +152,12 @@ html p{
   }
 
   /* footer */
-
+  
   .attribution { 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     font-size: 0.69em;
     text-align: center;
     }
