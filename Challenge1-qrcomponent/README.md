@@ -36,10 +36,7 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ### What I learned
 
-The use of Rem and em to create a more responsive website:
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+The use of Rem and em to create a more responsive website &
 
 How to center an element vertically and horizontally within the browser using Flexbox:
 ```css
@@ -48,6 +45,7 @@ How to center an element vertically and horizontally within the browser using Fl
       display: flex;
       justify-content: center;
       align-items: center;
+      font-size: 1em; /* 1em represent 16px, if we change the default font-size to 18px, 1em will adjust automatically to 18px, it's variable */
     }
 ```
 
