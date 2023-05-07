@@ -26,5 +26,5 @@ Source: https://www.frontendmentor.io/challenges
 <a href="Challenge 2 - Summary component/index.html"><b>Challenge 2</b></a>: Match a design and create a responsive mobile design.<br />
 Source: https://www.frontendmentor.io/challenges
 
-<a href=""><b>Challenge 3<b></a>: Match a simple Nft card preview with active states and a responsive mbile design.<br />
+<a href=""><b>Challenge 3</b></a>: Match a simple Nft card preview with active states and a responsive mbile design.<br />
 Source: https://www.frontendmentor.io/challenges
