@@ -1,0 +1,103 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 400;
+}
+
+body {
+    min-height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(217, 54%, 11%);
+}
+main {
+    width: 22em;
+    height: 37em;
+    padding: 2em;
+    background: hsl(216, 50%, 16%);
+    border-radius: 1.4em;
+    
+}
+.img-container {
+    position: relative;
+    width: 100%;
+}
+.image {
+    width: 100%;
+    border-radius: 0.8em;
+}
+.view-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+h1 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 1.5em;
+}
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cost {
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+    font-size: 600;
+}
+.eth-logo {
+    margin-right: 0.5em;
+}
+.time-remaining {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.clock {
+    margin-right: 0.5em;
+}
+hr {
+    height: 1px;
+    background-color: hsla(215, 52%, 70%, 0.189);
+    border: none;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+}
+.creator {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.avatar {
+    width: 2.4em;
+    margin-right: 1em;
+    border: solid 1px white;
+    border-radius: 2em;
+
+}
+.creator span {
+    color: white;
+    white-space: pre;
+}
+
+h1:hover .creator:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.image:hover {
+
+}
