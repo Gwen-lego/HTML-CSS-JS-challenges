@@ -36,7 +36,7 @@ main {
     background: hsla(178, 100%, 50%, 0.5);
     opacity: 1;
     z-index: 2;
-    
+
 }
 
 .icon-eye {
@@ -47,6 +47,7 @@ main {
     left: 0;
     margin: auto;
     opacity: 0;
+    transition: 0.5s ease-in-out;
 } 
 
 .filter-cyan {
