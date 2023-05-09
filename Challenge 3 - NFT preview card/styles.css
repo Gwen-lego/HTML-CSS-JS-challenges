@@ -19,6 +19,8 @@ main {
     padding: 2em;
     background: hsl(216, 50%, 16%);
     border-radius: 1.4em;
+    box-shadow: 0em 1.5em 1em 1em hsl(218, 53%, 10%), 0em 2.5em 1em 3em hsl(218, 54%, 11%);
+    
 }
 .img-container {
     position: relative;
@@ -29,6 +31,7 @@ main {
     width: 100%;
     height: 100%;
     border-radius: 0.8em;
+    object-fit: cover;
 }
 .hover-img {
     background-color: hsla(178, 100%, 50%, 0.5);
