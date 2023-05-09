@@ -31,8 +31,13 @@ main {
 }
 .view-icon {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: hsl(178, 100%, 50%);
+    ;
 }
 h1 {
     color: white;
@@ -98,6 +103,6 @@ h1:hover .creator:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
-.image:hover {
+/* .image:hover {
 
-}
+} */
