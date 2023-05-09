@@ -36,8 +36,6 @@ main {
     left: 0;
     bottom: 0;
     margin: auto;
-    background-color: hsl(178, 100%, 50%);
-    ;
 }
 h1 {
     color: white;
