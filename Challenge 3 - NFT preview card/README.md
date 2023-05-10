@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Gwen-lego/html-Css-challenges/blob/main/Challenge%203%20-%20NFT%20preview%20card/index.html)
-- Live Site URL: [Add live site URL here](https://gwen-lego.github.io/html-Css-challenges/Challenge%203%20-%20NFT%20preview%20card/index.html)
+- [Solution URL](https://github.com/Gwen-lego/html-Css-challenges/blob/main/Challenge%203%20-%20NFT%20preview%20card/index.html)
+- [Live Site URL](https://gwen-lego.github.io/html-Css-challenges/Challenge%203%20-%20NFT%20preview%20card/index.html)
 
 ## My process
 
