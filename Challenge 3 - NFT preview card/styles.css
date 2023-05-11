@@ -8,19 +8,26 @@ html {
     box-sizing: border-box;
 }
 
+:root {
+    --softblue : #8BACDA;
+    --cyan: #00FFF7;
+    --darkblue: hsl(217, 54%, 11%);
+    --darkblue2: hsl(216, 50%, 16%);
+    --darkblue3: hsl(215, 32%, 27%);
+}
+
 body {
     min-height: 100vh;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: hsl(217, 54%, 11%);
+    background: var(--darkblue);
 }
-main {
-    width: 22em;
-    height: 37em;
+.wrapper {
+    max-width: 22em;
     padding: 2em;
-    background: hsl(216, 50%, 16%);
+    background: var(--darkblue2);
     border-radius: 1.4em;
     box-shadow: 0em 1.5em 1em 1em hsl(218, 53%, 10%), 0em 2.5em 1em 3em hsl(218, 54%, 11%);
     
@@ -71,7 +78,7 @@ h1 {
     font-weight: 400;
 }
 p {
-    color: hsl(215, 51%, 70%);
+    color: var(--softblue);
     font-size: 1.2em;
     font-weight: 300;
     margin-bottom: 1.5em;
@@ -85,7 +92,7 @@ p {
 .cost {
     display: flex;
     align-items: center;
-    color: hsl(178, 100%, 50%);
+    color: var(--cyan);
     font-size: 600;
 }
 .eth-logo {
@@ -94,7 +101,7 @@ p {
 .time-remaining {
     display: flex;
     align-items: center;
-    color: hsl(215, 51%, 70%);
+    color: var(--softblue);
     font-weight: 300;
 }
 .clock {
@@ -102,7 +109,7 @@ p {
 }
 hr {
     height: 1px;
-    background-color: hsla(215, 52%, 70%, 0.189);
+    background-color: hsla(215, 51%, 70%, 0.189);
     border: none;
     margin-bottom: 1em;
     margin-top: 1.5em;
@@ -110,7 +117,7 @@ hr {
 .creator {
     display: flex;
     align-items: center;
-    color: hsl(215, 51%, 70%);
+    color: var(--softblue);
     font-weight: 300;
 }
 .avatar {
@@ -126,11 +133,11 @@ hr {
 }
 
 h1:hover {
-    color: hsl(178, 100%, 50%);
+    color: var(--cyan);
     cursor: pointer;
 }
 .creator span:hover {
-    color: hsl(178, 100%, 50%);
+    color: var(--cyan);
     cursor: pointer;
 }
 .img-container:hover::before, .img-container:hover::after{
