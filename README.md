@@ -28,3 +28,6 @@ Source: https://www.frontendmentor.io/challenges
 
 <a href="Challenge 3 - NFT preview card/index.html"><b>Challenge 3</b></a>: Match a simple Nft card preview with active states and a responsive mbile design.<br />
 Source: https://www.frontendmentor.io/challenges
+
+<a href="Challenge 4 - product preview/index.html"><b>Challenge 4</b></a>: Product preview that changes slightly with a responsive mobile design.<br />
+Source: https://www.frontendmentor.io/challenges
