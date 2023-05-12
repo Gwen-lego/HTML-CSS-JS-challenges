@@ -29,6 +29,6 @@ Thanks! Have a lovely day!
 
 <a href="Challenge 4 - product preview/index.html"><b>Challenge 4</b></a>: Product preview that changes slightly with a responsive mobile design.<br />
 
-<a href="Challenge 5 - Huddle landing page"><b>Challenge 4</b></a>: Full landing page with responsive mobile design.<br />
+<a href="Challenge 5 - Huddle landing page"><b>Challenge 5</b></a>: Full landing page with responsive mobile design.<br />
 
 
