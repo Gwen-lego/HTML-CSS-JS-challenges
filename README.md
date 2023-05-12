@@ -7,7 +7,8 @@ Hi everyone,
 <br />
 In this file you will find some challenges I have done to practice Html and Css.<br />
 Source: https://www.frontendmentor.io/challenges
-I use it as reminders everytime I get stuck on something.<br />
+I use it as reminders everytime I get stuck on something.
+<br />
 Below: I have described the most important lessons that every challenge provides to me with the link if you want to have a go at it.<br />
 Hope it helps someone too.
 
