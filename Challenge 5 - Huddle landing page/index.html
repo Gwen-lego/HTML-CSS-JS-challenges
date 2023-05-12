@@ -6,28 +6,80 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    :root {
+      --violet: hsl(257, 40%, 49%);
+      --magenta: hsl(300, 69%, 71%);
+
+      --poppins: 'Poppins', sans-serif;
+      --opensans: 'Open Sans', sans-serif;
+    }
+
+    body {
+      background: var(--violet);
+      background-image: url(images/bg-desktop.svg);
+      color: white;
+      font-family: var(--opensans);
+    }
+    header {
+      height: 8em;
+    }
+    header img {
+      width: 12em;
+    }
+    .main {
+      display: grid;
+      grid-template-columns: 65% 35%;
+    }
+
+    .website-overview {
+      margin: 2.5em 1em 0em 2.5em;
+
+  
+    }
+    .windows {
+      width: 100%;
+
+    }
+
+
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+    <header>
+      <img class="Huddle-logo" src="images/logo.svg" alt="Huddle">
+    </header>
+    <div class="main">
+      <div class="website-overview">
+        <img class="windows" src="images/illustration-mockups.svg" alt="browser-image">
+      </div>
+      <div class="intro">
+        <h1>Build The Community Your Fans Will Love</h1>
 
-  Build The Community Your Fans Will Love
+        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+        Create connections with your users as you engage in genuine discussion. 
+  
+        <button>
+          Register
+        </button>
+      </div>
+  </div>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+  
 
-  Register
-
-  <footer>
+  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
 </body>
 </html>
