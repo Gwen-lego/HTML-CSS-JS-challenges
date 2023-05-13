@@ -20,12 +20,24 @@
       --poppins: 'Poppins', sans-serif;
       --opensans: 'Open Sans', sans-serif;
     }
+    * {
+      box-sizing: border-box;
+    }
 
     body {
       background: var(--violet);
-      background-image: url(images/bg-desktop.svg);
       color: white;
       font-family: var(--opensans);
+    }
+    .background-desktop {
+      width: 90%;
+      position: absolute;
+      inset: 0;
+      z-index: -5;
+
+    }
+    .background-mobile {
+      display: none;
     }
     header {
       height: 8em;
@@ -35,17 +47,46 @@
     }
     .main {
       display: grid;
-      grid-template-columns: 65% 35%;
+      grid-template-columns: 59% 41%;
     }
 
     .website-overview {
-      margin: 2.5em 1em 0em 2.5em;
+      margin: 1.7em 4em 0em 3em;
 
-  
     }
     .windows {
       width: 100%;
 
+    }
+    h1 {
+      font-family: var(--poppins);
+      max-width: 12em;
+      margin-top: 2.2em;
+    }
+    .intro {
+      max-width: 28em;
+    }
+    p {
+      line-height: 1.6em;
+    }
+    button {
+      color: var(--violet);
+      border: none;
+      font-size: 1.1em;
+      background: white;
+      padding: 0.6em 3em;
+      border-radius: 3em;
+      font-family: var(--poppins);
+      box-shadow: 0em 0.5em 0.3em rgba(0, 0, 0, 0.203);
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: var(--magenta);
+    }
+
+    button:active {
+      
     }
 
 
@@ -54,6 +95,8 @@
   </style>
 </head>
 <body>
+  <img class="background-desktop" src="images/bg-desktop.svg" alt="purple background">
+  <img class="background-mobile" src="images/bg-mobile.svg" alt="purple background">
     <header>
       <img class="Huddle-logo" src="images/logo.svg" alt="Huddle">
     </header>
@@ -63,10 +106,10 @@
       </div>
       <div class="intro">
         <h1>Build The Community Your Fans Will Love</h1>
-
-        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-        Create connections with your users as you engage in genuine discussion. 
-  
+        <p>
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+          Create connections with your users as you engage in genuine discussion.   
+        </p>
         <button>
           Register
         </button>
