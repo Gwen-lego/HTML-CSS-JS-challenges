@@ -28,31 +28,36 @@
       background: var(--violet);
       color: white;
       font-family: var(--opensans);
-      margin: 3em 4em;
     }
     .background-desktop {
-      width: 90%;
+      width: 100%;
+      height: 100%;
       position: absolute;
       inset: 0;
       z-index: -5;
+      object-fit: cover;
 
     }
     .background-mobile {
+      width: 100%;
+      position: absolute;
+      z-index: -5;
+      top: 0;
+      left: 0;
       display: none;
     }
-    header {
-      height: 7.5em;
-    }
-    header img {
-      width: 12em;
+    .huddle-logo {
+      width: 14em;
+      margin-bottom: 4em;
     }
     .main {
       display: grid;
-      grid-template-columns: 59% 41%;
+      grid-template-columns: 60% 40%;
+      margin: 4em;
     }
 
     .website-overview {
-      margin-right: 4em;
+      margin-right: 3em;
     }
     .windows {
       width: 100%;
@@ -60,10 +65,13 @@
     h1 {
       font-family: var(--poppins);
       max-width: 12em;
-      margin-top: 2.2em;
+      margin-top: 1.2em;
+      font-weight: 400;
+
     }
     .intro {
-      max-width: 28em;
+      margin-top: 6.5em;
+      font-size: 1.2em;
     }
     p {
       line-height: 1.6em;
@@ -79,6 +87,7 @@
       box-shadow: 0em 0.4em 0.3em rgba(0, 0, 0, 0.203);
       cursor: pointer;
       transition: ease-in 0.1s;
+      margin-top: 0.3em;
     }
 
     button:hover {
@@ -101,11 +110,46 @@
       margin-left: 10px;
       cursor: pointer;
     }
-    footer {
-      display: flex;
-      justify-content: flex-end;
+    .social-media {
+      text-align: right;
+      margin-top: 10em;
+
     }
 
+     /* mobile screen */
+
+     @media screen and (max-width: 500px) {
+        body {
+          font-size: 0.8em;
+        }
+        .background-desktop {
+          display: none;
+        }
+        .background-mobile {
+          display: block;
+        }
+        .main {
+          display: block;
+          margin: 2em;
+        }
+        .website-overview {
+          margin-right: 0;
+        }
+    
+        .intro, .social-media {
+          text-align: center;
+          margin-top: 3em;
+        }
+        button {
+          padding: 0.8em 6em;
+          font-size: 0.9em;
+        }
+        .twitter, .facebook, .instagram {
+          width: 35px;
+          margin-top: 2em;
+        }
+
+      }
 
 
     .attribution { font-size: 11px; text-align: center; }
@@ -115,11 +159,9 @@
 <body>
   <img class="background-desktop" src="images/bg-desktop.svg" alt="purple background">
   <img class="background-mobile" src="images/bg-mobile.svg" alt="purple background">
-    <header>
-      <img class="Huddle-logo" src="images/logo.svg" alt="Huddle">
-    </header>
     <div class="main">
       <div class="website-overview">
+        <img class="huddle-logo" src="images/logo.svg" alt="Huddle">
         <img class="windows" src="images/illustration-mockups.svg" alt="browser-image">
       </div>
       <div class="intro">
@@ -131,20 +173,16 @@
         <button>
           Register
         </button>
-      </div>
-    </div>
-      <footer>
         <div class="social-media">
           <img class="facebook" src="images/facebook.png" alt="facebook logo">
           <img class="twitter" src="images/twitter.png" alt="twitter logo">
           <img class="instagram" src="images/instagram.png" alt="instagram logo">
         </div>
-      </footer>
+      </div>
+    </div>
 
 
-  
 
-  
 
   <!-- <footer>
     <p class="attribution">
