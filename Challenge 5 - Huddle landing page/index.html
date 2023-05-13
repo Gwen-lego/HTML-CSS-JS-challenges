@@ -28,6 +28,7 @@
       background: var(--violet);
       color: white;
       font-family: var(--opensans);
+      margin: 3em 4em;
     }
     .background-desktop {
       width: 90%;
@@ -40,7 +41,7 @@
       display: none;
     }
     header {
-      height: 8em;
+      height: 7.5em;
     }
     header img {
       width: 12em;
@@ -51,12 +52,10 @@
     }
 
     .website-overview {
-      margin: 1.7em 4em 0em 3em;
-
+      margin-right: 4em;
     }
     .windows {
       width: 100%;
-
     }
     h1 {
       font-family: var(--poppins);
@@ -77,17 +76,36 @@
       padding: 0.6em 3em;
       border-radius: 3em;
       font-family: var(--poppins);
-      box-shadow: 0em 0.5em 0.3em rgba(0, 0, 0, 0.203);
+      box-shadow: 0em 0.4em 0.3em rgba(0, 0, 0, 0.203);
       cursor: pointer;
+      transition: ease-in 0.1s;
     }
 
     button:hover {
       background: var(--magenta);
     }
+    .twitter:hover, .facebook:hover, .instagram:hover {
+      filter: invert(89%) sepia(13%) saturate(4504%) hue-rotate(251deg) brightness(91%) contrast(101%);
+    }
 
     button:active {
-      
+      translate: 0em 0.3em;
+      box-shadow: none;
     }
+    .twitter, .facebook, .instagram {
+      filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(59deg) brightness(103%) contrast(106%);
+      border: 1px solid black;
+      border-radius: 25px;
+      padding: 7px;
+      width: 40px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    footer {
+      display: flex;
+      justify-content: flex-end;
+    }
+
 
 
     .attribution { font-size: 11px; text-align: center; }
@@ -114,7 +132,17 @@
           Register
         </button>
       </div>
-  </div>
+    </div>
+      <footer>
+        <div class="social-media">
+          <img class="facebook" src="images/facebook.png" alt="facebook logo">
+          <img class="twitter" src="images/twitter.png" alt="twitter logo">
+          <img class="instagram" src="images/instagram.png" alt="instagram logo">
+        </div>
+      </footer>
+
+
+  
 
   
 
