@@ -41,8 +41,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/Gwen-lego/html-Css-challenges/blob/main/Challenge%204%20-%20product%20preview/index.html)
+- [Live Site URL](https://gwen-lego.github.io/html-Css-challenges/Challenge%204%20-%20product%20preview/index.html)
 
 ## My process
 
