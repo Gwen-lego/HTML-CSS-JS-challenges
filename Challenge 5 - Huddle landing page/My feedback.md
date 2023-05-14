@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/Gwen-lego/html-Css-challenges/blob/main/Challenge%205%20-%20Huddle%20landing%20page/index.html)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL] (https://github.com/Gwen-lego/html-Css-challenges/blob/main/Challenge%205%20-%20Huddle%20landing%20page/index.html)
+- [Live Site URL] (https://gwen-lego.github.io/html-Css-challenges/Challenge%205%20-%20Huddle%20landing%20page/)
 
 ## My process
 
