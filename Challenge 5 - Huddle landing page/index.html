@@ -1,194 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
-  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
-
-  <style>
-    :root {
-      --violet: hsl(257, 40%, 49%);
-      --magenta: hsl(300, 69%, 71%);
-
-      --poppins: 'Poppins', sans-serif;
-      --opensans: 'Open Sans', sans-serif;
-    }
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      background: var(--violet);
-      color: white;
-      font-family: var(--opensans);
-    }
-    .background-desktop {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      inset: 0;
-      z-index: -5;
-      object-fit: cover;
-
-    }
-    .background-mobile {
-      width: 100%;
-      position: absolute;
-      z-index: -5;
-      top: 0;
-      left: 0;
-      display: none;
-    }
-    .huddle-logo {
-      width: 14em;
-      margin-bottom: 4em;
-    }
-    .main {
-      display: grid;
-      grid-template-columns: 60% 40%;
-      margin: 4em;
-    }
-
-    .website-overview {
-      margin-right: 3em;
-    }
-    .windows {
-      width: 100%;
-    }
-    h1 {
-      font-family: var(--poppins);
-      max-width: 12em;
-      margin-top: 1.2em;
-      font-weight: 400;
-
-    }
-    .intro {
-      margin-top: 6.5em;
-      font-size: 1.2em;
-    }
-    p {
-      line-height: 1.6em;
-    }
-    button {
-      color: var(--violet);
-      border: none;
-      font-size: 1.1em;
-      background: white;
-      padding: 0.6em 3em;
-      border-radius: 3em;
-      font-family: var(--poppins);
-      box-shadow: 0em 0.4em 0.3em rgba(0, 0, 0, 0.203);
-      cursor: pointer;
-      transition: ease-in 0.1s;
-      margin-top: 0.3em;
-    }
-
-    button:hover {
-      background: var(--magenta);
-    }
-    .twitter:hover, .facebook:hover, .instagram:hover {
-      filter: invert(89%) sepia(13%) saturate(4504%) hue-rotate(251deg) brightness(91%) contrast(101%);
-    }
-
-    button:active {
-      translate: 0em 0.3em;
-      box-shadow: none;
-    }
-    .twitter, .facebook, .instagram {
-      filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(59deg) brightness(103%) contrast(106%);
-      border: 1px solid black;
-      border-radius: 25px;
-      padding: 7px;
-      width: 40px;
-      margin-left: 10px;
-      cursor: pointer;
-    }
-    .social-media {
-      text-align: right;
-      margin-top: 10em;
-
-    }
-
-     /* mobile screen */
-
-     @media screen and (max-width: 500px) {
-        body {
-          font-size: 0.8em;
-        }
-        .background-desktop {
-          display: none;
-        }
-        .background-mobile {
-          display: block;
-        }
-        .main {
-          display: block;
-          margin: 2em;
-        }
-        .website-overview {
-          margin-right: 0;
-        }
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     
-        .intro, .social-media {
-          text-align: center;
-          margin-top: 3em;
-        }
-        button {
-          padding: 0.8em 6em;
-          font-size: 0.9em;
-        }
-        .twitter, .facebook, .instagram {
-          width: 35px;
-          margin-top: 2em;
-        }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+    <style>
+      :root {
+        --violet: hsl(257, 40%, 49%);
+        --magenta: hsl(300, 69%, 71%);
+
+        --poppins: 'Poppins', sans-serif;
+        --opensans: 'Open Sans', sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        background: var(--violet);
+        color: white;
+        font-family: var(--opensans);
+      }
+      .background-desktop {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        inset: 0;
+        z-index: -5;
+        object-fit: cover;
+
+      }
+      .background-mobile {
+        width: 100%;
+        position: absolute;
+        z-index: -5;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+      .huddle-logo {
+        width: 13em;
+        margin-bottom: 4em;
+      }
+      .main {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        margin: 4em;
+      }
+
+      .website-overview {
+        margin-right: 3em;
+      }
+      .windows {
+        width: 100%;
+      }
+      h1 {
+        font-family: var(--poppins);
+        max-width: 12em;
+        margin-top: 1.2em;
+        font-weight: 600;
+
+      }
+      .intro {
+        margin-top: 6.5em;
+        font-size: 1.2em;
+      }
+      p {
+        line-height: 1.4em;
+      }
+      button {
+        color: var(--violet);
+        border: none;
+        font-size: 1.1em;
+        background: white;
+        padding: 0.6em 3em;
+        border-radius: 3em;
+        font-family: var(--poppins);
+        box-shadow: 0em 0.4em 0.3em rgba(0, 0, 0, 0.203);
+        cursor: pointer;
+        transition: ease-in 0.1s;
+        margin-top: 0.3em;
+      }
+
+      button:hover {
+        background: var(--magenta);
+      }
+      .twitter:hover, .facebook:hover, .instagram:hover {
+        filter: invert(89%) sepia(13%) saturate(4504%) hue-rotate(251deg) brightness(91%) contrast(101%);
+      }
+
+      button:active {
+        translate: 0em 0.3em;
+        box-shadow: none;
+      }
+      .twitter, .facebook, .instagram {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(59deg) brightness(103%) contrast(106%);
+        border: 1px solid black;
+        border-radius: 25px;
+        padding: 7px;
+        width: 40px;
+        margin-left: 10px;
+        cursor: pointer;
+      }
+      .social-media {
+        text-align: right;
+        margin-top: 7em;
 
       }
 
+      /* mobile screen */
 
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <img class="background-desktop" src="images/bg-desktop.svg" alt="purple background">
-  <img class="background-mobile" src="images/bg-mobile.svg" alt="purple background">
-    <div class="main">
-      <div class="website-overview">
-        <img class="huddle-logo" src="images/logo.svg" alt="Huddle">
-        <img class="windows" src="images/illustration-mockups.svg" alt="browser-image">
-      </div>
-      <div class="intro">
-        <h1>Build The Community Your Fans Will Love</h1>
-        <p>
-          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-          Create connections with your users as you engage in genuine discussion.   
-        </p>
-        <button>
-          Register
-        </button>
-        <div class="social-media">
-          <img class="facebook" src="images/facebook.png" alt="facebook logo">
-          <img class="twitter" src="images/twitter.png" alt="twitter logo">
-          <img class="instagram" src="images/instagram.png" alt="instagram logo">
+      @media screen and (max-width: 500px) {
+          body {
+            font-size: 0.8em;
+          }
+          .background-desktop {
+            display: none;
+          }
+          .background-mobile {
+            display: block;
+          }
+          .main {
+            display: block;
+            margin: 2em;
+          }
+          .website-overview {
+            margin-right: 0;
+          }
+      
+          .intro, .social-media {
+            text-align: center;
+            margin-top: 3em;
+          }
+          button {
+            padding: 0.8em 6em;
+            font-size: 0.9em;
+          }
+          .twitter, .facebook, .instagram {
+            width: 35px;
+            margin-top: 2em;
+          }
+
+        }
+
+
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+  </head>
+  <body>
+    <img class="background-desktop" src="images/bg-desktop.svg" alt="purple background">
+    <img class="background-mobile" src="images/bg-mobile.svg" alt="purple background">
+      <div class="main">
+        <div class="website-overview">
+          <img class="huddle-logo" src="images/logo.svg" alt="Huddle">
+          <img class="windows" src="images/illustration-mockups.svg" alt="browser-image">
+        </div>
+        <div class="intro">
+          <h1>Build The Community Your Fans Will Love</h1>
+          <p>
+            Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+            Create connections with your users as you engage in genuine discussion.   
+          </p>
+          <button>
+            Register
+          </button>
+          <div class="social-media">
+            <img class="facebook" src="images/facebook.png" alt="facebook logo">
+            <img class="twitter" src="images/twitter.png" alt="twitter logo">
+            <img class="instagram" src="images/instagram.png" alt="instagram logo">
+          </div>
         </div>
       </div>
-    </div>
 
 
 
 
-  <!-- <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer> -->
-</body>
+    <!-- <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer> -->
+  </body>
 </html>
