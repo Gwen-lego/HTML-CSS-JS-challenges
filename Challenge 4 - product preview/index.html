@@ -47,7 +47,7 @@
         background: white;
         border-radius: 0.5em;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(18.3em, 1fr));
         overflow: hidden;
       }
       .image {
@@ -119,12 +119,14 @@
       button:hover {
         background: hsl(158, 44%, 17%);
       }
+      /* Meadi Query replaced by "repeat and auto-fit minmax"
+      
       @media screen and (max-width: 500px) {
         .wrapper {
           max-width: 23em;
           display: block;
         }
-      }
+      } */
   
 
       .attribution { font-size: 11px; text-align: center; }
@@ -137,7 +139,7 @@
       <div class="wrapper">
         <div class="product-image">
           <picture>
-            <source media="(max-width: 600px)" srcset="images/image-product-mobile.jpg">
+            <source media="(max-width: 33em)" srcset="images/image-product-mobile.jpg">
             <img class="image" src="images/image-product-desktop.jpg" alt="Chanel parfum bottle">
             </picture>
         </div>
