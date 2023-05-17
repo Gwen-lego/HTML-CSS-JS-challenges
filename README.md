@@ -23,7 +23,7 @@ Thanks! Have a lovely day!
 
 ![grow brain icon](https://user-images.githubusercontent.com/91636757/235404578-6f37d88d-405d-43a8-853f-c31914c039fe.png)
 
-<a href="Challenge1-qrcomponent/index.html"><b>Challenge 1</b></a>: How to center an element vertically and horizontally on your browser.<br />
+<a href="Challenge 1 - qr-component/index.html"><b>Challenge 1</b></a>: How to center an element vertically and horizontally on your browser.<br />
 
 <a href="Challenge 2 - Summary component/index.html"><b>Challenge 2</b></a>: Match a design and create a responsive mobile design.<br />
 
