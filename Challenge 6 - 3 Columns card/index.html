@@ -8,6 +8,9 @@
   
   <title>Frontend Mentor | 3-column preview card component</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     :root {
@@ -17,6 +20,10 @@
 
       --clear-white: hsla(0, 0%, 100%, 0.75);
       --light-grey: hsl(0, 0%, 95%);
+      
+
+      --font-Big: 'Big Shoulders Display', cursive;
+      --font-lexend: 'Lexend Deca', sans-serif;
     }
 
     body {
@@ -24,17 +31,19 @@
       justify-content: center;
       align-items: center;
       min-height: 100vh;
+      font-family: var(--font-lexend);
     }
     .main {
       display: grid;
-      grid-template-columns: repeat(3, 307px);
-      border-radius: 3px;
+      grid-template-columns: repeat(auto-fit, 307px);
+      border-radius: 5px;
       overflow: hidden;
     }
 
     .orange-box {
       background: var(--orange);
       padding: 45px;
+
     }
     .cyan-box {
       background: var(--cyan);
@@ -45,14 +54,42 @@
       padding: 45px;
     }
     h1 {
-      color: var(--light-grey)
+      color: var(--light-grey);
+      text-transform: uppercase;
+      font-family: var(--font-Big);
     }
     p {
-      color: var(--clear-white)
+      color: var(--clear-white);
+      margin-bottom: 70px;
+      font-weight: 400;
+      font-size: 15px;
+
     }
     button {
-      
+      width: 145px;
+      height: 45px;
+      border: 2px solid var(--light-grey);
+      background: var(--light-grey);
+      border-radius: 25px;
+      font-size: 15px;
+      cursor: pointer;
+
     }
+    .button-orange {
+      color: var(--orange);
+    }
+    .button-cyan {
+      color: var(--cyan);
+    }
+    .button-dark-cyan {
+      color: var(--dark-cyan);
+    }
+    button:hover {
+      background: none;
+      color: var(--light-grey);
+
+    }
+
 
 
     .attribution { font-size: 11px; text-align: center; }
@@ -69,7 +106,7 @@
         Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
       or on your next road trip.
       </p>
-      <button>
+      <button class="button-orange">
         Learn more
       </button>
     </div>   
@@ -80,7 +117,7 @@
         Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
         and off-road adventures.
       </p>
-      <button>
+      <button class="button-cyan">
         Learn more
       </button>
     </div>
@@ -91,7 +128,7 @@
         Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
         rental and arrive in style.
       </p>
-      <button>
+      <button class="dark-cyan">
         Learn more
       </button>
     </div>
