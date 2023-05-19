@@ -27,8 +27,11 @@
 
         --fruances: 'Fraunces', serif;
       }
-      html {
+
+      * {
         box-sizing: border-box;
+      }
+      html {
         font-size: 14px;
         font-family: 'Montserrat', sans-serif;
         background: var(--cream);
@@ -46,15 +49,16 @@
         background: white;
         border-radius: 0.5em;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(18.3em, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         overflow: hidden;
       }
       .image {
         width: 100%;
-        height: 100%;
+        height: 100%;        
         object-fit: cover;
         }
       .description {
+        width: 300px;
         padding: 1.6em 2em;
       }
       h1 {
