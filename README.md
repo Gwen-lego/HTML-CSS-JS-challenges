@@ -33,6 +33,6 @@ Thanks! Have a lovely day!
 
 <a href="Challenge 5 - Huddle landing page/index.html"><b>Challenge 5</b></a>: Full landing page with responsive mobile design.<br />
 
-<a href="Challenge 6 - 3 Columns card/index/html"><b>Challenge 6</b></a>: design a 3 columns responsive design<br />
+<a href="Challenge 6 - 3 Columns card/index.html"><b>Challenge 6</b></a>: design a 3 columns responsive design<br />
 
 
