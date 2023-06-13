@@ -51,8 +51,6 @@ p {
     line-height: 1.6em;
     color: var(--lightgrey);
     margin-bottom: 30px;
-        font-weight: 400;
-
 }
 .form-selection {
     padding: 0;
@@ -72,8 +70,16 @@ p {
     border-radius: 50%;
     cursor: pointer;
     font-size: 16px;
-
 }
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover {
+    background: var(--orange);
+    color: var(--white);
+}
+#one:focus, #two:focus, #three:focus, #four:focus, #five:focus {
+    background: var(--lightgrey);
+    color: var(--white);
+}
+
 #submit {
     background-color: var(--orange);
     cursor: pointer;
@@ -83,6 +89,11 @@ p {
     border-radius: 25px;
     border: none;
     letter-spacing: 0.2em;
+}
+
+#submit:hover {
+    background: var(--white);
+    color: var(--orange);
 }
 
 .thankyou-container {
