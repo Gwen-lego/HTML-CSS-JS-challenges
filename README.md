@@ -35,4 +35,6 @@ Thanks! Have a lovely day!
 
 <a href="Challenge 6 - 3 Columns card/index.html"><b>Challenge 6</b></a>: design a 3 columns responsive design<br />
 
+<a href="Challenge 7 - Interactive rating component/index.html"><b>Challenge 7</b></a>: First JavaScript challenge, user to select a rating and change of page<br />
+
 
