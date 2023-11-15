@@ -1,0 +1,145 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0 0;
+  padding: 0 0;
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: hsl(217, 12%, 63%);
+  background: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+}
+
+.content-container {
+  background: hsl(220, 22%, 14%);
+  width: 415px;
+  height: 415px;
+  padding: 32px 32px;
+  border-radius: 25px;
+}
+
+.star-logo {
+  height: 50px;
+  width: 50px;
+  background: hsl(212, 18%, 18%);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 34px;
+}
+h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+p {
+  margin-bottom: 30px;
+}
+.score-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  color: hsl(216, 12%, 54%);
+  background-color: hsl(212, 18%, 18%);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.selected {
+  background-color: lightgray;
+}
+
+.submit-btn {
+  color: white;
+  background: hsl(25, 97%, 53%);
+  width: 100%;
+  height: 45px;
+  border-radius: 25px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-top: 30px;
+}
+
+.submit-btn:hover {
+  background: white;
+  color: hsl(25, 97%, 53%);
+}
+.not-submitted{
+  display: none;
+  color: red;
+  font-style: italic;
+  font-size:small;
+}
+.submitted {
+  display: none;
+}
+
+.survey {
+  display: initial;
+}
+.submitted-container{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+
+}
+.img-thank-you{
+  margin: 12px;
+
+}
+
+.choice-orange{
+  color: hsl(26, 44%, 48%);
+  border-radius: 15px;
+  background:hsl(210, 19%, 18%);
+  padding: 5px 15px;
+  margin-bottom: 40px;
+  margin-top: 12px;
+}
+.thankyou{
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 12px;
+
+}
+.regards{
+  /* padding: 0 5px; */
+  text-align: center;
+  font-size: 15.5px;
+  line-height: 1.4em;
+
+
+}
+
+/* .score {
+  background-color: grey;
+} */
