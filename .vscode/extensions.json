@@ -1,5 +1,8 @@
 {
     "workbench.colorTheme": "Cobalt2",
     "liveServer.settings.ChromeDebuggingAttachment": false,
-    "liveServer.settings.AdvanceCustomBrowserCmdLine": "Firefox Developer Edition"
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "Firefox Developer Edition",
+    "recommendations": [
+        "ms-vscode.live-server"
+    ]
 }

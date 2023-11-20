@@ -28,29 +28,29 @@ body {
 
 .content-container {
   background: hsl(220, 22%, 14%);
-  width: 415px;
-  height: 415px;
-  padding: 32px 32px;
-  border-radius: 25px;
+  width: 52vw;
+  height: 52vh;
+  padding: 2.1em;
+  border-radius: 1.7em;
 }
 
 .star-logo {
-  height: 50px;
-  width: 50px;
+  height: 3.3em;
+  width: 3.3em;
   background: hsl(212, 18%, 18%);
-  border-radius: 25px;
+  border-radius: 1.7em;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 34px;
+  margin-bottom: 2.3rem;
 }
 h1 {
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 1.3rem;
   font-size: 24px;
 }
 p {
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 .score-btn {
   display: flex;
@@ -59,9 +59,9 @@ p {
 
 button {
   border: none;
-  border-radius: 25px;
-  height: 50px;
-  width: 50px;
+  border-radius: 1.7em;
+  height: 3.3em;
+  width: 3.3em;
   color: hsl(216, 12%, 54%);
   background-color: hsl(212, 18%, 18%);
   cursor: pointer;
@@ -80,12 +80,12 @@ button:hover {
   color: white;
   background: hsl(25, 97%, 53%);
   width: 100%;
-  height: 45px;
-  border-radius: 25px;
+  height: 3em;
+  border-radius: 1.7em;
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  margin-top: 30px;
+  margin-top: 2rem;
 }
 
 .submit-btn:hover {
@@ -112,23 +112,23 @@ align-items: center;
 
 }
 .img-thank-you{
-  margin: 12px;
+  margin: 0.8rem ;
 
 }
 
 .choice-orange{
   color: hsl(26, 44%, 48%);
-  border-radius: 15px;
+  border-radius: 1rem;
   background:hsl(210, 19%, 18%);
-  padding: 5px 15px;
-  margin-bottom: 40px;
-  margin-top: 12px;
+  padding: 0.3em 15em;
+  margin-bottom: 2.6rem;
+  margin-top: 0.8rem;
 }
 .thankyou{
   color: white;
   font-size: 26px;
   font-weight: 600;
-  margin-bottom: 12px;
+  margin-bottom: 0.8rem;
 
 }
 .regards{
