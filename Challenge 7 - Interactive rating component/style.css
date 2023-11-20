@@ -28,8 +28,8 @@ body {
 
 .content-container {
   background: hsl(220, 22%, 14%);
-  width: 52vw;
-  height: 52vh;
+  width: 415px;
+  height: 415px;
   padding: 2.1em;
   border-radius: 1.7em;
 }
