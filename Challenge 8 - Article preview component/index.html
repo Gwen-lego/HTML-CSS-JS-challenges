@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      :root {
+        --DarkGreyBlue: hsl(217, 19%, 35%);
+        --LigthGreyBlue: hsl(210, 46%, 95%);
+        --DesatDarkBlue: hsl(214, 17%, 51%);
+        --GrayBlue: hsl(212, 23%, 69%);
+      }
+
+      body {
+        max-width: 1440px;
+        min-height: 100vh;
+        font-family: "Manrope", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        background-color: var(--LigthGreyBlue);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      main {
+        width: 730px;
+        height: 280px;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        border-radius: 15px;
+      }
+
+      .drawers-img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        object-position: left;
+      }
+
+      .right-section {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        margin: 40px 40px 10px 40px;
+        position: relative;
+      }
+
+      h1 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: var(--DarkGreyBlue);
+      }
+
+      p {
+        color: var(--DesatDarkBlue);
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+        font-weight: 500;
+      }
+
+      .profile-section {
+        display: grid;
+        grid-template-columns: 60px 1fr 50px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .profile-img img {
+        width: 40px;
+        border-radius: 50%;
+      }
+
+      h2 {
+        font-size: 0.8rem;
+      }
+      .share-btn-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+
+      .share-btn {
+        z-index: 15;
+        display: flex;
+        background-color: var(--LigthGreyBlue);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        scale: 1;
+      }
+
+      .media-links-container {
+        display: none;
+      }
+
+      .media-links {
+        z-index: 10;
+        position: absolute;
+        bottom: 60px;
+        right: -100px;
+        background-color: var(--DarkGreyBlue);
+        padding: 0.8rem 2rem;
+        border-radius: 0.4rem;
+      }
+
+      .icons {
+        display: flex;
+        gap: 15px;
+        font-size: 0.8em;
+        letter-spacing: 0.5em;
+      }
+
+      .twitter-icon {
+        padding-top: 3px;
+      }
+      .triangle {
+        position: absolute;
+        top: -30px;
+        left: 20px;
+        width: 0;
+        height: 0;
+        border-top: 15px solid var(--DarkGreyBlue);
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+      }
+
+      .media-links p {
+        color: var(--GrayBlue);
+      }
+
+      .clicked {
+        display: inline;
+      }
+
+      @media only screen and (max-width: 375px) {
+        main {
+          width: 340px;
+          height: fit-content;
+          grid-template-columns: 100%;
+          grid-template-rows: 40% 60%;
+          overflow: hidden;
+        }
+
+        .drawers-img {
+          object-position: top;
+        }
+
+        .right-section {
+          margin-left: 30px;
+          margin-right: 30px;
+        }
+
+        h1 {
+          font-size: 1.1rem;
+        }
+
+        .media-links {
+          width: 400px;
+          left: -260px;
+          bottom: -30px;
+          scale: 1.1;
+        }
+
+        .icons {
+          padding: 10px 0px 20px 15px;
+        }
+        .triangle {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div class="left-section">
+        <img class="drawers-img" src="images/drawers.jpg" />
+      </div>
+
+      <div class="right-section">
+        <h1>
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h1>
+        <p>
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I've got some simple tips to help
+          you make any room feel complete.
+        </p>
+        <div class="profile-section">
+          <div class="profile-img">
+            <img src="images/avatar-michelle.jpg" />
+          </div>
+          <div class="profile-info">
+            <h2>Michelle Appleton</h2>
+            <p>28 Jun 2020</p>
+          </div>
+          <div class="share-btn-container">
+            <div class="share-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+                <path
+                  class="arrow-icon"
+                  fill="#6E8098"
+                  d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+                />
+              </svg>
+            </div>
+            <div class="media-links-container">
+              <div class="media-links">
+                <div class="icons">
+                  <p>SHARE</p>
+                  <a href="#"><img src="images/icon-facebook.svg" /></a>
+                  <a href="#"
+                    ><img src="images/icon-twitter.svg" class="twitter-icon"
+                  /></a>
+                  <a href="#"><img src="images/icon-pinterest.svg" /></a>
+                </div>
+              </div>
+              <div class="triangle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      const shareBtn = document.querySelector(".share-btn-container");
+      const mediaLinks = document.querySelector(".media-links-container");
+      const shareIcon = document.querySelector(".share-btn");
+      const arrowIcon = document.querySelector(".arrow-icon");
+
+      let showLinks = 0;
+
+      shareBtn.addEventListener("click", function () {
+        if (showLinks == 0) {
+          mediaLinks.classList.add("clicked");
+          shareIcon.style.backgroundColor = "var(--DesatDarkBlue)";
+          arrowIcon.style.fill = "white";
+          showLinks = 1;
+        } else if (showLinks == 1) {
+          mediaLinks.classList.remove("clicked");
+          shareIcon.style.backgroundColor = "var(--LigthGreyBlue)";
+          arrowIcon.style.fill = "#6E8098";
+
+          showLinks = 0;
+        }
+      });
+    </script>
+  </body>
+</html>
