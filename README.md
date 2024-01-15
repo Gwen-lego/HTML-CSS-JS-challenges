@@ -37,4 +37,6 @@ Thanks! Have a lovely day!
 
 <a href="Challenge 7 - Interactive rating component/index.html"><b>Challenge 7</b></a>: First JavaScript challenge, user to select a rating and change of page<br />
 
+<a href="Challenge 8 - Aticle preview component/index.html"><b>Challenge 7</b></a>: second JavaScript challenge, control style onclick<br />
+
 
