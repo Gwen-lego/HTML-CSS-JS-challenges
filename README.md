@@ -39,6 +39,6 @@ Thanks! Have a lovely day!
 
 <a href="Challenge 8 - Article preview component/index.html"><b>Challenge 8</b></a>: second JavaScript challenge, control style onclick<br />
 
-<a href="Challenge 9 - Social proof section/index.html"><b>Challenge 8</b></a>: Css challenge to practice<br />
+<a href="Challenge 9 - Social proof section/index.html"><b>Challenge 9</b></a>: Css challenge to practice<br />
 
 
