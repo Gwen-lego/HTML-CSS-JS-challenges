@@ -1,0 +1,148 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --LightPink: hsl(275, 100%, 97%);
+  --GrayishPurple: hsl(292, 16%, 49%);
+  --DarkPurple: hsl(281, 83%, 53%);
+  --VeryDarkPurple: hsl(292, 42%, 14%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Work Sans", sans-serif;
+  position: relative;
+  height: 100vh;
+}
+
+.background {
+  z-index: 1;
+}
+.upper-background {
+  width: 100vw;
+  height: 35vh;
+  background-image: url(assets/images/background-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.lower-background {
+  height: 65vh;
+  width: 100vw;
+  background-color: var(--LightPink);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background-color: var(--LightPink);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.main-content {
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  max-height: fit-content;
+  background-color: var(--White);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 2.5rem;
+  border-radius: 0.6rem;
+}
+
+.faqs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon-star img {
+  width: 2.3rem;
+  margin-right: 1rem;
+}
+
+.Qcontainer:hover {
+  cursor: pointer;
+  .question {
+    color: var(--DarkPurple);
+  }
+}
+
+.question {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 1rem 0 1rem 0;
+  color: var(--VeryDarkPurple);
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 1rem;
+}
+
+p {
+  color: var(--GrayishPurple);
+}
+s .divider-line {
+  margin: auto;
+}
+
+hr {
+  background-color: var(--LightPink);
+  height: 1.2px;
+  border: none;
+}
+
+.icon-plus,
+.icon-minus {
+  display: none;
+}
+.show-icon {
+  display: block;
+}
+
+.answer {
+  display: none;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.show-answer {
+  display: block;
+}
+
+@media screen and (max-width: 475px) {
+  .upper-background {
+    background-image: url(assets/images/background-pattern-mobile.svg);
+  }
+
+  .main-content {
+    max-width: 327px;
+    padding: 1.6rem;
+  }
+
+  .icon-star img {
+    width: 1.7rem;
+  }
+  h1 {
+    font-size: 2.3rem;
+  }
+}
