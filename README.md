@@ -41,4 +41,6 @@ Thanks! Have a lovely day!
 
 <a href="Challenge 9 - Social proof section/index.html"><b>Challenge 9</b></a>: Css challenge to practice<br />
 
+<a href="Challenge 10 - Stats preview card/index.html"><b>Challenge 10</b></a>: Javascript addeventlistener/function on multiple questions<br />
+
 
