@@ -20,7 +20,7 @@ body {
   color: var(--White);
   background-color: var(--Verydarkblue);
   font-family: "Inter", sans-serif;
-  width: 1440px;
+  max-width: 1440px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -29,19 +29,17 @@ body {
 
 .main-container {
   background: var(--Darkdesaturatedblue);
-  width: 1110px;
+  max-width: 1100px;
   display: flex;
   flex-direction: row;
   border-radius: 7px;
-  overflow: hidden;
-  max-width: 1060px;
 }
 
 .content {
   display: flex;
   width: 50%;
   flex-direction: column;
-  margin: 70px;
+  padding: 70px;
 }
 
 h1 {
@@ -78,7 +76,7 @@ h2 {
 }
 
 .picture {
-  width: 50%;
+  width: auto;
   display: flex;
   position: relative;
 }
@@ -102,9 +100,13 @@ h2 {
 
 /* ---RESPONSIVE --- */
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 900px) {
+  body {
+    margin: 30px;
+  }
+
   .main-container {
-    width: 327px;
+    max-width: 527px;
     flex-direction: column;
     text-align: center;
     margin-top: 88px;
@@ -126,9 +128,10 @@ h2 {
   }
 
   .content {
+    display: flex;
     width: 327px;
-    margin: 0;
-    padding: 35px 35px 0 35px;
+    margin: auto;
+    padding: 20px 20px 0 20px;
     order: 2;
   }
   .content p {
