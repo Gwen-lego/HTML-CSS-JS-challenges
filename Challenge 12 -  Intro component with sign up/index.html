@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <main>
+      <div class="empty"></div>
+      <section>
+        <div class="container-left">
+          <h1>Learn to code by watching others</h1>
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="container-right">
+          <div class="try-offer">
+            <p>Try it free 7 days <span>then $20/mo. thereafter</span></p>
+          </div>
+          <div class="form-container">
+            <form action="">
+              <div class="input-icon">
+                <!-- firstname -->
+                <i
+                  class="fa-sharp fa-solid fa-circle-exclamation fa-firstName"
+                  style="color: #ff7979"
+                ></i>
+
+                <input
+                  id="input-firstName"
+                  type="text"
+                  placeholder="First Name"
+                  value=""
+                />
+
+                <p class="error-message-firstName error-message">
+                  First name cannot be empty
+                </p>
+              </div>
+              <!-- lastname -->
+              <div class="input-icon">
+                <i
+                  class="fa-sharp fa-solid fa-circle-exclamation fa-lastName"
+                  style="color: #ff7979"
+                ></i>
+                <input
+                  id="input-lastName"
+                  type="text"
+                  placeholder="Last Name"
+                />
+
+                <p class="error-message-lastName error-message">
+                  Last name cannot be empty
+                </p>
+              </div>
+              <!-- email -->
+              <div class="input-icon">
+                <i
+                  class="fa-sharp fa-solid fa-circle-exclamation fa-email"
+                  style="color: #ff7979"
+                ></i>
+                <input
+                  id="input-email"
+                  type="email"
+                  placeholder="Email Address"
+                />
+
+                <p class="error-message-email error-message">
+                  Looks like this is not an email
+                </p>
+              </div>
+              <!-- passsword -->
+              <div class="input-icon">
+                <i
+                  class="fa-sharp fa-solid fa-circle-exclamation fa-password"
+                  style="color: #ff7979"
+                ></i>
+                <input
+                  id="input-password"
+                  type="password"
+                  placeholder="Password"
+                />
+
+                <p class="error-message-password error-message">
+                  Password cannot be empty
+                </p>
+              </div>
+
+              <div class="btn-claim">Claim your free trial</div>
+            </form>
+            <p class="conditions">
+              By clicking the button, you are agreeing to our
+              <span>Terms and Services</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="empty"></div>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Gwen-lego</a>.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
