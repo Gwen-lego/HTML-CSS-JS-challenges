@@ -45,6 +45,6 @@ Thanks! Have a lovely day!
 
 <a href="Challenge 11 - faq accordion/index.html"><b>Challenge 11</b></a>: Javascript addeventlistener/function on multiple questions<br />
 
-<a href="Challenge 12 - Intro component with sign up"><b>Challenge 12</b></a>: Sign up form with icons in inputs, email validation with JS<br />
+<a href="Challenge 12 - Intro component with sign up/index.html"><b>Challenge 12</b></a>: Sign up form with icons in inputs, email validation with JS<br />
 
 
