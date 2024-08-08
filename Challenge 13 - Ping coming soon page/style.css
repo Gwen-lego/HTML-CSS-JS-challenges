@@ -1,0 +1,169 @@
+:root {
+  --PaleBlue: hsl(223, 100%, 88%);
+  --LightRed: hsl(354, 100%, 66%);
+  --Gray: hsl(0, 0%, 59%);
+  --VeryDarkBlue: hsl(209, 33%, 12%);
+  --Blue: hsl(223, 87%, 63%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+.logo {
+  width: 80px;
+  align-self: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.h1grey {
+  color: var(--Gray);
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.notifyMe-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.email-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-input {
+  border: 1px solid var(--Gray);
+  border-radius: 2.5rem;
+  padding: 16px 16px 14px 16px;
+  height: 49px;
+  text-indent: 15px;
+  font-size: 20px;
+}
+
+.email-input::placeholder {
+  text-indent: 15px;
+  color: var(--Gray);
+  font-size: 20px;
+}
+
+.error-invalid-email {
+  visibility: hidden;
+  color: var(--LightRed);
+  font-style: italic;
+  font-size: 10px;
+  margin-top: 8px;
+  text-indent: 25px;
+}
+
+.error-message-visible {
+  visibility: visible;
+}
+
+.btn-NotifyMe {
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  color: white;
+  background-color: var(--Blue);
+  border-radius: 2.5rem;
+  padding: 14px 16px 16px 16px;
+  box-shadow: 0px 10px 10px hsla(223, 87%, 63%, 0.237);
+}
+
+.btn-NotifyMe:hover {
+  cursor: pointer;
+  background-color: var(--PaleBlue);
+}
+
+.social-media-container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+}
+
+.link-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.fa-brands {
+  font-size: 12px;
+  padding: 8px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--Gray);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 950px) {
+  main {
+    font-size: 12px;
+    max-width: 375px;
+  }
+
+  .notifyMe-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .email-input::placeholder {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+}
