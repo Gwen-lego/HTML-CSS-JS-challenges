@@ -47,3 +47,5 @@ Thanks! Have a lovely day!
 
 <a href="Challenge 12 -  Intro component with sign up/index.html"><b>Challenge 12</b></a>: Sign up form with icons in inputs, email validation with JS<br />
 
+<a href="Challenge 13 - Ping coming soon page/index.html"><b>Challenge 12</b></a>: email validation with JS and simple design/ LAST NEWBIE level<br />
+
