@@ -150,7 +150,8 @@ h3 {
 @media only screen and (max-width: 950px) {
   main {
     font-size: 12px;
-    max-width: 375px;
+    width: 100%;
+    max-width: 350px;
   }
 
   .notifyMe-container {
