@@ -37,6 +37,10 @@ main.disabled {
 
 /* LEFT SECTION */
 
+.left-section {
+  justify-content: center;
+}
+
 .items-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, 250px);
@@ -45,8 +49,10 @@ main.disabled {
 }
 
 h1 {
+  width: 100%;
   font-size: 35px;
   font-weight: 900;
+  margin: auto;
 }
 
 .img-desktop,
@@ -58,6 +64,10 @@ h1 {
 
 .img-mobile {
   display: none;
+}
+
+.redBorder {
+  border: 2px solid var(--Red);
 }
 
 .add-cart-container {
@@ -341,10 +351,6 @@ hr.linecart {
 
   main {
     grid-template-columns: 1fr;
-  }
-
-  .items-container {
-    justify-content: center;
   }
 
   .modal {

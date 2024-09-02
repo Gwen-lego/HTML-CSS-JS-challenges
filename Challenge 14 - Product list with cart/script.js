@@ -65,9 +65,10 @@ const updateTotal = function () {
 const showHideAddToCart = function (itemID) {
   // display - and +
   const resetBtn = document.getElementById(`${itemID}`);
-
+  const imgBorder = resetBtn.querySelector(".image-border");
   const targetAdd = resetBtn.querySelector(".btn-addtocart");
   targetAdd.classList.toggle("visible");
+  imgBorder.classList.toggle("redBorder");
 };
 
 //////////////////////////
