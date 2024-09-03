@@ -105,7 +105,7 @@ const addRemoveOne = function (e, num) {
 
   const ItemQt = clicked.querySelector(".quantity-selected");
   if (ItemQt.textContent < 2 && num < 0) {
-    return;
+    cartRow.querySelector(".delete-item').click();
   } else {
     ItemQt.textContent = Number(ItemQt.textContent) + num;
     cartItemQT.textContent = ItemQt.textContent;
