@@ -1,0 +1,195 @@
+:root {
+  --purple: hsl(259, 100%, 65%);
+  --LightRed: hsl(0, 100%, 67%);
+
+  --White: hsl(0, 0%, 100%);
+  --OffWhite: hsl(0, 0%, 94%);
+  --Lightgrey: hsl(0, 0%, 86%);
+  --Smokeygrey: hsl(0, 1%, 44%);
+  --Offblack: hsl(0, 0%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* remove step in input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins";
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--OffWhite);
+  margin: auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+main {
+  max-width: 840px;
+  width: 100%;
+  background-color: var(--White);
+  padding: 56px;
+  border-radius: 25px;
+  border-bottom-right-radius: 25%;
+  margin: 20px;
+}
+.top-section {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+  max-width: 800px;
+  width: 100%;
+  position: relative;
+  font-family: "Poppins";
+  gap: 30px;
+}
+
+input::placeholder,
+input {
+  font-family: "Poppins";
+}
+
+h1 {
+  color: var(--Smokeygrey);
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 400i;
+}
+
+input {
+  font-size: 32px;
+  color: var(--Offblack);
+  font-weight: 700;
+  text-indent: 25px;
+  max-width: 160px;
+  width: 100%;
+  height: 70px;
+  border-radius: 5px;
+  border: 1px solid var(--Lightgrey);
+  cursor: pointer;
+}
+
+input:hover {
+  border-color: var(--purple);
+}
+
+.error-message {
+  color: var(--LightRed);
+  font-style: italic;
+}
+
+.btn-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: var(--Lightgrey);
+  margin-block: 70px;
+}
+
+.calculate-btn {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--purple);
+  cursor: pointer;
+}
+
+.calculate-btn:hover {
+  background-color: var(--Offblack);
+}
+
+.answer-container {
+  display: flex;
+  flex-direction: column;
+  line-height: 110px;
+  font-size: 100px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.answer {
+  color: var(--purple);
+}
+
+.turn-red {
+  color: var(--LightRed);
+}
+
+.border-red {
+  border-color: var(--LightRed);
+}
+
+@media only screen and (max-width: 780px) {
+  main {
+    padding: 30px;
+  }
+
+  h1,
+  .error-message {
+    font-size: 12px;
+  }
+
+  input {
+    font-size: 20px;
+    height: 50px;
+    max-width: 120px;
+  }
+  .calculate-btn {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    translate: -50% -50%;
+    width: 60px;
+    height: 60px;
+  }
+  .calculate-btn img {
+    width: 30px;
+  }
+  .answer-container {
+    font-size: 70px;
+    line-height: 80px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main {
+    padding: 20px;
+  }
+  .input-container {
+    gap: 10px;
+  }
+  input {
+    text-indent: 5px;
+  }
+  .answer-container {
+    font-size: 45px;
+    line-height: 55px;
+  }
+}

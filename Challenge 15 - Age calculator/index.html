@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="top-section">
+        <div class="input-container">
+          <div class="day-box box">
+            <h1 class="h1-day title">DAY</h1>
+            <input type="number" class="inputs" id="day" placeholder="DD" />
+            <p class="error-message error-day"></p>
+          </div>
+          <div class="month-box box">
+            <h1 class="h1-month title">MONTH</h1>
+            <input type="number" class="inputs" id="month" placeholder="MM" />
+            <p class="error-message error-month"></p>
+          </div>
+          <div class="year-box box">
+            <h1 class="h1-year title">YEAR</h1>
+            <input type="number" class="inputs" id="year" placeholder="YYYY" />
+            <p class="error-message error-year"></p>
+          </div>
+        </div>
+        <div class="btn-box">
+          <div class="line"></div>
+          <button id="calculate-btn" class="calculate-btn">
+            <img src="./assets/images/icon-arrow.svg" />
+          </button>
+        </div>
+      </section>
+
+      <div class="answer-container">
+        <div class="row-years">
+          <span class="answer-years answer">-- </span> years
+        </div>
+        <div class="row-months">
+          <span class="answer-months answer">-- </span> months
+        </div>
+        <div class="row-days">
+          <span class="answer-days answer">-- </span> days
+        </div>
+      </div>
+
+      <!-- Provide answer at the bottom -->
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
