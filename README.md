@@ -51,5 +51,5 @@ Thanks! Have a lovely day!
 
 <a href="Challenge 14 - Product list with cart/index.html"><b>Challenge 14</b></a>: Create a cart with quantity and confirmation MODAL <br />
 
-<a href="Challenge 15 - Age calculator/index.html"><b>Challenge 14</b></a>: Create a age calculator app <br />
+<a href="Challenge 15 - Age calculator/index.html"><b>Challenge 15</b></a>: Create a age calculator app <br />
 
