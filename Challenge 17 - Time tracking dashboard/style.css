@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+:root {
+  /* Primary */
+
+  --Blue: hsl(246, 80%, 60%);
+  --lightredwork: hsl(15, 100%, 70%);
+  --SoftBluePlay: hsl(195, 74%, 62%);
+  --lightredstudy: hsl(348, 100%, 68%);
+  --LimeGreenExercice: hsl(145, 58%, 55%);
+  --VioletSocial: hsl(264, 64%, 52%);
+  --SoftOrangeSelfcare: hsl(43, 84%, 65%);
+
+  /* Neutral */
+
+  --VeryDarkBlue: hsl(226, 43%, 10%);
+  --DarkBlue: hsl(235, 46%, 20%);
+  --DesaturatedBlue: hsl(235, 45%, 61%);
+  --DarkBlueHover: hsl(235, 34%, 37%);
+  --PaleBlue: hsl(236, 100%, 87%);
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--VeryDarkBlue);
+  z-index: 10;
+}
+
+main {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    " a b c d"
+    "a b c d";
+  gap: 25px;
+}
+
+/* profil container / LEFT CONTAINER */
+
+.box1 {
+  grid-area: a;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  background-color: var(--DarkBlue);
+  border-radius: 10px;
+}
+
+.profil-container {
+  background-color: var(--Blue);
+  border-radius: 10px;
+  padding: 25px;
+  z-index: 10;
+}
+.profil-picture {
+  width: 4.5em;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-bottom: 30px;
+}
+.report {
+  color: var(--PaleBlue);
+  font-size: 0.8em;
+}
+h1 {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.period-selection-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--DarkBlue);
+  padding: 25px 25px 15px 25px;
+  border-radius: 10px;
+  align-self: end;
+}
+
+.btn-period {
+  background-color: var(--DarkBlue);
+  color: var(--DesaturatedBlue);
+  border: none;
+  width: fit-content;
+  padding: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.btn-period:hover {
+  color: white;
+}
+
+/* SMALLER BOX */
+
+.box2 {
+  display: grid;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.orange-back {
+  background-color: var(--lightredwork);
+}
+.blue-back {
+  background-color: var(--SoftBluePlay);
+}
+.pink-back {
+  background-color: var(--lightredstudy);
+}
+.green-back {
+  background-color: var(--LimeGreenExercice);
+}
+.purple-back {
+  background-color: var(--VioletSocial);
+}
+.yellow-back {
+  background-color: var(--SoftOrangeSelfcare);
+}
+
+.img-container {
+  border-radius: 10px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: flex-end;
+  height: 35px;
+}
+
+.logo-box {
+  height: 40px;
+  width: 65px;
+  object-fit: cover;
+}
+
+.content-box {
+  align-self: end;
+  background-color: var(--DarkBlue);
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.content-box:hover {
+  background-color: var(--DarkBlueHover);
+}
+
+.top-content {
+  display: flex;
+  justify-content: space-between;
+}
+h2 {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 1.2em;
+  min-width: fit-content;
+  padding-right: 5px;
+}
+h3 {
+  font-size: 42px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+svg {
+  fill: blue;
+}
+
+.previous-info {
+  font-size: 0.8em;
+  color: var(--PaleBlue);
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 750px) {
+  main {
+    display: block;
+  }
+  h1 {
+    font-size: 24px;
+  }
+
+  .picture-container {
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+    justify-items: center;
+  }
+  .box2 {
+    margin-top: 20px;
+  }
+  .title-box {
+    margin-bottom: 5px;
+  }
+  .bottom-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+  .profil-container {
+    display: flex;
+    align-items: center;
+  }
+  .period-selection-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 15px 5px 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main {
+    width: 90%;
+  }
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- FONT RUBIK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="box1">
+        <div class="profil-container">
+          <div class="picture-container">
+            <img class="profil-picture" src="./images/image-jeremy.png" />
+          </div>
+
+          <div class="name-container">
+            <p class="report">Report for</p>
+            <h1>Jeremy Robson</h1>
+          </div>
+        </div>
+        <div class="period-selection-container">
+          <button class="btn-daily btn-period" data-period="daily">
+            Daily
+          </button>
+          <button class="btn-weekly btn-period" data-period="weekly">
+            Weekly
+          </button>
+          <button class="btn-monthly btn-period" data-period="monthly">
+            Monthly
+          </button>
+        </div>
+      </div>
+      <div class="box2 orange-back">
+        <div class="img-container orange-back">
+          <div class="img-box">
+            <img class="logo-box" src="./images/icon-work.svg" />
+          </div>
+        </div>
+
+        <div class="content-box">
+          <div class="top-content">
+            <h2 class="title-box" data-number="1">Work</h2>
+            <a class="three-dots"><img src="./images/icon-ellipsis.svg" /></a>
+          </div>
+          <div class="bottom-content">
+            <h3><span class="current-time-1">0</span>hrs</h3>
+            <p class="previous-info">
+              <span class="previous-period">Last week </span>-
+              <span class="previous-time-1">0</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box2 blue-back">
+        <div class="img-container blue-back">
+          <div class="img-box">
+            <img class="logo-box" src="./images/icon-play.svg" />
+          </div>
+        </div>
+
+        <div class="content-box">
+          <div class="top-content">
+            <h2 class="title-box" data-number="2">Play</h2>
+            <a class="three-dots"><img src="./images/icon-ellipsis.svg" /></a>
+          </div>
+          <div class="bottom-content">
+            <h3><span class="current-time-2">0</span>hrs</h3>
+            <p class="previous-info">
+              <span class="previous-period">Last week </span>-
+              <span class="previous-time-2">0</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box2 pink-back">
+        <div class="img-container pink-back">
+          <div class="img-box">
+            <img class="logo-box" src="./images/icon-study.svg" />
+          </div>
+        </div>
+        <div class="content-box">
+          <div class="top-content">
+            <h2 class="title-box" data-number="3">Study</h2>
+            <a class="three-dots"><img src="./images/icon-ellipsis.svg" /></a>
+          </div>
+          <div class="bottom-content">
+            <h3><span class="current-time-3">0</span>hrs</h3>
+            <p class="previous-info">
+              <span class="previous-period">Last week </span>-
+              <span class="previous-time-3">0</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box2 green-back">
+        <div class="img-container green-back">
+          <div class="img-box">
+            <img class="logo-box" src="./images/icon-exercise.svg" />
+          </div>
+        </div>
+        <div class="content-box">
+          <div class="top-content">
+            <h2 class="title-box" data-number="4">Exercise</h2>
+            <a class="three-dots"><img src="./images/icon-ellipsis.svg" /></a>
+          </div>
+          <div class="bottom-content">
+            <h3><span class="current-time-4">0</span>hrs</h3>
+            <p class="previous-info">
+              <span class="previous-period">Last week </span>-
+              <span class="previous-time-4">0</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box2 purple-back">
+        <div class="img-container purple-back">
+          <div class="img-box">
+            <img class="logo-box" src="./images/icon-social.svg" />
+          </div>
+        </div>
+        <div class="content-box">
+          <div class="top-content">
+            <h2 class="title-box" data-number="5">Social</h2>
+            <a class="three-dots"><img src="./images/icon-ellipsis.svg" /></a>
+          </div>
+          <div class="bottom-content">
+            <h3><span class="current-time-5">0</span>hrs</h3>
+            <p class="previous-info">
+              <span class="previous-period">Last week </span>-
+              <span class="previous-time-5">0</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box2 yellow-back">
+        <div class="img-container yellow-back">
+          <div class="img-box">
+            <img class="logo-box" src="./images/icon-self-care.svg" />
+          </div>
+        </div>
+        <div class="content-box">
+          <div class="top-content">
+            <h2 class="title-box" data-number="6">Self-Care</h2>
+            <a class="three-dots"><img src="./images/icon-ellipsis.svg" /></a>
+          </div>
+          <div class="bottom-content">
+            <h3><span class="current-time-6">0</span>hrs</h3>
+            <p class="previous-info">
+              <span class="previous-period">Last week </span>-
+              <span class="previous-time-6">0</span>hrs
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
