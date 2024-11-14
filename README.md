@@ -55,3 +55,5 @@ Thanks! Have a lovely day!
 
 <a href="Challenge 16 - Contact form/index.html"><b>Challenge 16</b></a>: Create a contact form <br />
 
+<a href="Challenge 17 - Time tracking dashboard/index.html"><b>Challenge 17</b></a>: Create a dashboard and show data from JSON file <br />
+
