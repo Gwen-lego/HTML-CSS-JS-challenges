@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Mortgage repayment calculator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main>
+      <section class="left-section">
+        <div class="title-box">
+          <div class="">
+            <h1>Mortgage Calculator</h1>
+          </div>
+          <div class="div">
+            <button class="btn-clearAll">Clear All</button>
+          </div>
+        </div>
+
+        <form action="">
+          <div class="">
+            <div class="mortgage-amount input-container">
+              <h2>Mortgage Amount</h2>
+              <div class="input-box">
+                <p class="input-logo border-left-logo">&#163;</p>
+                <input
+                  type="number"
+                  id="amount"
+                  name="amount"
+                  min="1"
+                  max="100000000"
+                  class="input-number"
+                />
+              </div>
+              <label class="red-info amount-red-label hidden" for="amount"
+                >This field is required</label
+              >
+            </div>
+            <div class="show-row term-rate-columns">
+              <div class="mortgage-term input-container">
+                <h2>Mortgage Term</h2>
+                <div class="input-box reverse-grid">
+                  <input
+                    type="number"
+                    id="years"
+                    name="years"
+                    min="1"
+                    max="30"
+                    class="input-number"
+                  />
+                  <p class="input-logo border-right-logo">years</p>
+                </div>
+                <label class="red-info years-red-label hidden" for="years"
+                  >This field is required</label
+                >
+              </div>
+
+              <div class="interest-rate input-container">
+                <h2>Interest Rate</h2>
+                <div class="input-box reverse-grid">
+                  <input
+                    type="number"
+                    id="percents"
+                    name="percents"
+                    min="1"
+                    max="30"
+                    class="input-number"
+                  />
+                  <p class="input-logo border-right-logo">&percnt;</p>
+                </div>
+                <label class="red-info rate-red-label hidden" for="percents"
+                  >This field is required</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="mortgage-type">
+            <h2>Mortgage Type</h2>
+
+            <div class="radio-box" id="repayment-box">
+              <input
+                type="radio"
+                id="repayment"
+                value="Repayment"
+                name="type"
+              />
+              <label for="repayment">Repayment</label>
+            </div>
+            <div class="radio-box">
+              <input
+                type="radio"
+                id="interest"
+                value="interest Only"
+                name="type"
+              />
+              <label for="interest">Interest Only</label>
+            </div>
+            <label class="red-info type-red-label hidden" for="interest"
+              >This field is required</label
+            >
+          </div>
+
+          <button class="btn-calculate">
+            <img
+              src="./assets/images/icon-calculator.svg"
+              alt="small calculator"
+            />Calculate Repayments
+          </button>
+        </form>
+      </section>
+
+      <!-- Empty results start -->
+      <section class="right-section">
+        <div class="container-center">
+          <div class="waiting-results">
+            <img
+              src="./assets/images/illustration-empty.svg"
+              alt="Calculator with coins and bill"
+            />
+            <h3>Results shown here</h3>
+            <p class="results-info">
+              Complete the form and click “calculate repayments” to see what
+              your monthly repayments would be.
+            </p>
+          </div>
+        </div>
+
+        <!-- Empty results end -->
+
+        <!-- ///////////////////////////////// -->
+        <!-- Completed results start -->
+        <div class="display-results hidden">
+          <h3>Your results</h3>
+          <p class="results-info">
+            Your results are shown below based on the information you provided.
+            To adjust the results, edit the form and click “calculate
+            repayments” again.
+          </p>
+          <div class="fluor-line"></div>
+          <div class="results-shown">
+            <p class="results-info">Your monthly repayments</p>
+            <p class="monthly-repayment">
+              &#163;<span class="monthly-value">0</span>
+            </p>
+            <div class="separating-line"></div>
+            <p class="results-info">Total you'll repay over the term</p>
+            <p class="total-repay-over">
+              &#163;<span class="repay-over-value">0</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Completed results end -->
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
