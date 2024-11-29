@@ -17,12 +17,15 @@ const TypeRep = document.getElementById("repayment");
 const TypeInt = document.getElementById("interest");
 
 // red label selector
+const redLabels = document.querySelectorAll(".red-info");
 
 const typeRequired = document.querySelector(".type-red-label");
 
 //buttons
 
 const BtnCalculate = document.querySelector(".btn-calculate");
+
+const clear = document.querySelector(".btn-clearAll");
 
 // display answers
 
@@ -109,9 +112,26 @@ const calculateRepayment = function (e) {
   return;
 };
 
+const reset = function () {
+  redLabels.forEach(function (red) {
+    if (!red.classList.contains("hidden")) {
+      red.classList.add("hidden");
+    }
+  });
+
+  inputs.forEach(function (input) {
+    const container = input.closest(".input-container");
+    container.querySelector(".input-box").style.borderColor = Slate500;
+    container.querySelector(".input-logo").style.backgroundColor = Slate100;
+    container.querySelector(".input-logo").style.color = Slate700;
+  });
+};
+
 // Ad a listener to Button Calculate
 
 BtnCalculate.addEventListener("click", calculateRepayment);
+
+clear.addEventListener("click", reset);
 
 // FORMULA
 
