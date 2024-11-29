@@ -57,5 +57,5 @@ Thanks! Have a lovely day!
 
 <a href="Challenge 17 - Time tracking dashboard/index.html"><b>Challenge 17</b></a>: Create a dashboard and show data from JSON file <br />
 
-<a href="Challenge 18 - Mortage repayment calculator/index.html"><b>Challenge 18</b></a>: Create a dashboard and show data from JSON file <br />
+<a href="Challenge 18 - Mortage repayment calculator/index.html"><b>Challenge 18</b></a>: Create a mortgage payment calculator <br />
 
