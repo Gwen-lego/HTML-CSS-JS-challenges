@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main>
+      <div class="content">
+        <section class="top-section">
+          <div class="page-title"><h1>Our Pricing</h1></div>
+          <div class="period-switch">
+            <h2>Annually</h2>
+            <div class="toggle-container">
+              <input type="checkbox" id="switch" class="checkbox" />
+              <label for="switch" class="toggle"></label>
+            </div>
+            <h2>Monthly</h2>
+          </div>
+        </section>
+
+        <section class="bottom-section">
+          <div class="basic-box">
+            <div class="void"></div>
+            <div class="basic-container formula">
+              <h3 class="formula-name">Basic</h3>
+              <div class="price">
+                <p class="dollar">&dollar;</p>
+                <p class="monthly">19.99</p>
+                <p class="annually hidden">199.99</p>
+              </div>
+              <div class="line"></div>
+
+              <p>500 GB Storage</p>
+              <div class="line"></div>
+
+              <p>2 Users Allowed</p>
+              <div class="line"></div>
+
+              <p>Send up to 3 GB</p>
+              <div class="line"></div>
+
+              <button class="btn-learn btn-purple">LEARN MORE</button>
+            </div>
+          </div>
+
+          <div class="professional-container formula">
+            <h3 class="formula-name">Professionnal</h3>
+            <div class="price">
+              <p>&dollar;</p>
+              <p class="monthly">24.99</p>
+              <p class="annually hidden">249.99</p>
+            </div>
+            <div class="line line-white"></div>
+            <p>1 TB Storage</p>
+            <div class="line line-white"></div>
+
+            <p>5 Users Allowed</p>
+            <div class="line line-white"></div>
+
+            <p>Send up to 10 GB</p>
+            <div class="line line-white"></div>
+
+            <button class="btn-learn btn-white">LEARN MORE</button>
+          </div>
+          <div class="Master-box">
+            <div class="void"></div>
+            <div class="master-container formula">
+              <h3 class="formula-name">Master</h3>
+              <div class="price">
+                <p>&dollar;</p>
+                <p class="monthly">39.99</p>
+                <p class="annually hidden">399.99</p>
+              </div>
+              <div class="line"></div>
+
+              <p>2 TB Storage</p>
+              <div class="line"></div>
+
+              <p>10 Users Allowed</p>
+              <div class="line"></div>
+
+              <p>Send up to 20 GB</p>
+              <div class="line"></div>
+
+              <button class="btn-learn btn-purple">LEARN MORE</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
