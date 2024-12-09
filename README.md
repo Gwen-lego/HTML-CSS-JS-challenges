@@ -59,3 +59,5 @@ Thanks! Have a lovely day!
 
 <a href="Challenge 18 - Mortage repayment calculator/index.html"><b>Challenge 18</b></a>: Create a mortgage payment calculator <br />
 
+<a href="Challenge 19 - Pricing component with toggle switch"><b>Challenge 19</b></a>: Pricing page with toggle switch to change pricing <br />
+
