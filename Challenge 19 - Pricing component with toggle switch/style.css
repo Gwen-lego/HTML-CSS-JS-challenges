@@ -210,4 +210,9 @@ p {
   .period-switch {
     margin-bottom: 20px;
   }
+
+  body {
+    background-image: url(./images/bg-top.svg);
+  }
+  /* reduce background picture */
 }
