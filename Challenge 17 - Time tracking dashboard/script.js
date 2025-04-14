@@ -31,10 +31,16 @@ const loopOverTitles = function (period, data) {
 
 function getData(period) {
   fetch("./data.json")
-    .then((response) => response.json())
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+      return response.json();
+    })
     .then(function (data) {
       loopOverTitles(period, data);
-    });
+    })
+    .catch((error) => console.error("Error fetching data:", error));
 }
 // loop over every element and display accurate times
 
